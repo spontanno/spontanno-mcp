@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "space.spontanno/events",
+  "title": "СПОНТАННО",
+  "description": "Concerts, theatre, standup and more in Russian cities: search, filters and a random «Спонтанно» pick",
+  "version": "1.0.0",
+  "websiteUrl": "https://spontanno.space/ai",
+  "icons": [
+    {
+      "src": "https://spontanno.space/brand/v2/app-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    },
+    {
+      "src": "https://spontanno.space/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spontanno.space/mcp"
+    }
+  ]
+}

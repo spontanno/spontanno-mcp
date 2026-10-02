@@ -1,0 +1,20 @@
+{
+  "name": "spontanno",
+  "displayName": "СПОНТАННО",
+  "version": "1.0.0",
+  "description": "Events in Russian cities from the СПОНТАННО listing: search, one random pick, event details with prices by ticket seller, city coverage and shareable shortlists. Remote MCP server plus a usage skill.",
+  "author": {
+    "name": "СПОНТАННО",
+    "email": "support@spontanno.space",
+    "url": "https://spontanno.space"
+  },
+  "homepage": "https://spontanno.space/ai",
+  "repository": "https://github.com/spontanno/spontanno-mcp",
+  "license": "MIT",
+  "keywords": ["events", "afisha", "concerts", "theatre", "standup", "russia", "mcp"],
+  "icon": "./assets/icon-512.png",
+  "documentationUrl": "https://spontanno.space/ai",
+  "supportUrl": "https://spontanno.space/contacts",
+  "privacyPolicyUrl": "https://spontanno.space/privacy",
+  "termsOfServiceUrl": "https://spontanno.space/terms"
+}

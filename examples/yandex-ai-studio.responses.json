@@ -1,0 +1,19 @@
+{
+  "model": "gpt://<идентификатор_каталога>/yandexgpt",
+  "input": [
+    {
+      "role": "user",
+      "content": "Куда сходить в субботу вечером в Казани? Дай 5 вариантов со ссылками."
+    }
+  ],
+  "tools": [
+    {
+      "type": "mcp",
+      "server_label": "spontanno",
+      "server_url": "https://spontanno.space/mcp",
+      "metadata": {
+        "description": "Афиша событий городов России СПОНТАННО"
+      }
+    }
+  ]
+}

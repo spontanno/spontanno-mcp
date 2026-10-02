@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "spontanno": {
+      "type": "streamableHttp",
+      "url": "https://spontanno.space/mcp",
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

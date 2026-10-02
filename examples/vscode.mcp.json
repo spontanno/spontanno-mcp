@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "spontanno": {
+      "type": "http",
+      "url": "https://spontanno.space/mcp"
+    }
+  }
+}
