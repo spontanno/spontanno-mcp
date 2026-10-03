@@ -38,7 +38,7 @@ Event data is in Russian; the assistant answers in the user's language.
 | `list_cities` | Города афиши | read | Covered cities and a city overview: today, tomorrow, weekend, free, categories |
 | `create_shortlist` | Подборка ссылкой | write (non-destructive) | 2–10 events as one link spontanno.space/s/{code}, valid for 90 days |
 
-All tools carry explicit annotations: `readOnlyHint` (true for four, false for `create_shortlist`), `destructiveHint: false`, `openWorldHint: false`, `idempotentHint` (false only for «Спонтанно»: every call is a new pick).
+All tools carry explicit annotations: `readOnlyHint` (true for four, false for `create_shortlist`), `destructiveHint: false`, `openWorldHint` (false for four, true for `create_shortlist`: a shortlist is a public page), `idempotentHint` (false only for «Спонтанно»: every call is a new pick).
 
 Tool descriptions, verbatim (this is what the model reads):
 

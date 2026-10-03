@@ -36,7 +36,7 @@ https://spontanno.space/mcp
 | `list_cities` | Города афиши | чтение | Какие города есть в афише и обзор города: сегодня, завтра, выходные, бесплатное, рубрики |
 | `create_shortlist` | Подборка ссылкой | запись (без разрушения) | Подборка из 2–10 событий одной ссылкой spontanno.space/s/{код}, действует 90 дней |
 
-У всех инструментов явные аннотации: `readOnlyHint` (true у четырёх, false у `create_shortlist`), `destructiveHint: false`, `openWorldHint: false`, `idempotentHint` (false только у «Спонтанно»: каждый вызов — новый выбор).
+У всех инструментов явные аннотации: `readOnlyHint` (true у четырёх, false у `create_shortlist`), `destructiveHint: false`, `openWorldHint` (false у четырёх, true у `create_shortlist`: подборка — публичная страница), `idempotentHint` (false только у «Спонтанно»: каждый вызов — новый выбор).
 
 <details>
 <summary>Описания инструментов дословно (их читает модель)</summary>
