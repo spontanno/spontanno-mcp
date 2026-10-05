@@ -219,6 +219,12 @@ asyncio.run(main())
 - не выкачивать каталог целиком и соблюдать лимиты: для партнёрских интеграций напишите нам;
 - соблюдать [условия использования сайта](https://spontanno.space/terms).
 
+## В каталогах
+
+[официальный реестр MCP](https://registry.modelcontextprotocol.io/v0.1/servers?search=space.spontanno) · [Smithery](https://smithery.ai/servers/spontanno/events) · [Glama](https://glama.ai/mcp/connectors/space.spontanno/events) · [LobeHub](https://lobehub.com/mcp/spontanno-spontanno-mcp)
+
+[![MCP Badge](https://lobehub.com/badge/mcp/spontanno-spontanno-mcp)](https://lobehub.com/mcp/spontanno-spontanno-mcp)
+
 ## Связь
 
 [support@spontanno.space](mailto:support@spontanno.space) · [spontanno.space/contacts](https://spontanno.space/contacts) · ошибки в описаниях событий — ссылкой на страницу события.
