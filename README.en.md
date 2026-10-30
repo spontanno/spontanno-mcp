@@ -225,6 +225,8 @@ The server is free and open for personal use and integrations. Please:
 
 ## Contact
 
+Developed and maintained by Aleksei Alpatov, who runs the server and the spontanno.space website.
+
 [support@spontanno.space](mailto:support@spontanno.space) · [spontanno.space/contacts](https://spontanno.space/contacts) · to report a wrong event, send the link to its page.
 
 ## License

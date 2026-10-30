@@ -227,6 +227,8 @@ asyncio.run(main())
 
 ## Связь
 
+Разработчик — Aleksei Alpatov (Алексей Алпатов): сервер и сайт spontanno.space.
+
 [support@spontanno.space](mailto:support@spontanno.space) · [spontanno.space/contacts](https://spontanno.space/contacts) · ошибки в описаниях событий — ссылкой на страницу события.
 
 ## Лицензия
