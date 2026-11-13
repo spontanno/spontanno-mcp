@@ -87,11 +87,11 @@ https://spontanno.space/mcp
 Работает на всех тарифах, на Free — один свой коннектор. На Team и Enterprise коннектор добавляет владелец организации: **Organization settings → Connectors → Add → Custom → Web**.
 
 ### ChatGPT
-1. **Settings → Security and login → Developer mode** — включить.
-2. [chatgpt.com/plugins](https://chatgpt.com/plugins) → **+** → имя и описание → Connection: `https://spontanno.space/mcp` → создать.
-3. В новом чате выбрать подключение в меню инструментов.
+1. Открыть плагин [Spontanno Events](https://chatgpt.com/plugins/plugin_asdk_app_6ac1505cb3f08191ab477dcc9c473aa9) в каталоге плагинов ChatGPT — или в ChatGPT: боковое меню **Plugins** → поиск «Spontanno».
+2. **Install plugin**; если ChatGPT предложит подключить приложение — **Connect** (вход не нужен).
+3. В чате ChatGPT подключает плагин сам, когда вопрос об афише; выбрать его явно — через **@** или **+** и название Spontanno Events.
 
-Режим разработчика — в веб-версии на платных тарифах (точный список меняется — сверяйтесь со справкой OpenAI); доступность зависит и от политики рабочего пространства.
+Плагин работает в веб-версии, приложении для компьютера и на телефоне; в рабочих пространствах доступность плагинов задаёт администратор.
 
 ### Mistral Vibe (Le Chat)
 1. [chat.mistral.ai](https://chat.mistral.ai): страница **Connectors** → **+ Add Connector** → вкладка **Custom MCP Connector**.
@@ -221,7 +221,7 @@ asyncio.run(main())
 
 ## В каталогах
 
-[каталог коннекторов Claude](https://claude.ai/directory/spontanno) · [официальный реестр MCP](https://registry.modelcontextprotocol.io/v0.1/servers?search=space.spontanno) · [Smithery](https://smithery.ai/servers/spontanno/events) · [Glama](https://glama.ai/mcp/connectors/space.spontanno/events) · [LobeHub](https://lobehub.com/mcp/spontanno-spontanno-mcp)
+[каталог коннекторов Claude](https://claude.ai/directory/spontanno) · [каталог плагинов ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6ac1505cb3f08191ab477dcc9c473aa9) · [официальный реестр MCP](https://registry.modelcontextprotocol.io/v0.1/servers?search=space.spontanno) · [Smithery](https://smithery.ai/servers/spontanno/events) · [Glama](https://glama.ai/mcp/connectors/space.spontanno/events) · [LobeHub](https://lobehub.com/mcp/spontanno-spontanno-mcp)
 
 [![MCP Badge](https://lobehub.com/badge/mcp/spontanno-spontanno-mcp)](https://lobehub.com/mcp/spontanno-spontanno-mcp)
 
@@ -237,4 +237,4 @@ asyncio.run(main())
 
 ---
 
-<sub>Шаги подключения сверены с документацией клиентов 02.10.2026: Claude — claude.com/docs/connectors/custom/remote-mcp; ChatGPT — developers.openai.com/plugins/deploy/connect-chatgpt; Mistral Vibe (Le Chat) — docs.mistral.ai/le-chat/knowledge-integrations/connectors/mcp-connectors; Perplexity — справка Perplexity, статья 13915507 (страница закрыта для автоматической проверки, шаги — по её выдержке); Grok — docs.x.ai/grok/connectors; Cursor — cursor.com/docs/context/mcp и cursor.com/docs/context/mcp/install-links; VS Code — code.visualstudio.com/docs/copilot/customization/mcp-servers и code.visualstudio.com/api/extension-guides/ai/mcp; Claude Code — code.claude.com/docs/en/mcp; Gemini CLI — geminicli.com/docs/tools/mcp-server; Cline — docs.cline.bot/mcp/connecting-to-a-remote-server; Yandex AI Studio — aistudio.yandex.ru/docs/ru/ai-studio/operations/mcp-servers/connect-external и …/operations/generation/mcp-server-access; GigaChain — developers.sber.ru/docs/ru/gigachain/tutorials/agent-gigachat-mcp, docs.langchain.com/oss/python/langchain/mcp, github.com/ai-forever/langchain-gigachat.</sub>
+<sub>Шаги подключения сверены с документацией клиентов 02.10.2026: Claude — claude.com/docs/connectors/custom/remote-mcp; ChatGPT — help.openai.com/en/articles/20001256 (каталог плагинов, 13.11.2026); Mistral Vibe (Le Chat) — docs.mistral.ai/le-chat/knowledge-integrations/connectors/mcp-connectors; Perplexity — справка Perplexity, статья 13915507 (страница закрыта для автоматической проверки, шаги — по её выдержке); Grok — docs.x.ai/grok/connectors; Cursor — cursor.com/docs/context/mcp и cursor.com/docs/context/mcp/install-links; VS Code — code.visualstudio.com/docs/copilot/customization/mcp-servers и code.visualstudio.com/api/extension-guides/ai/mcp; Claude Code — code.claude.com/docs/en/mcp; Gemini CLI — geminicli.com/docs/tools/mcp-server; Cline — docs.cline.bot/mcp/connecting-to-a-remote-server; Yandex AI Studio — aistudio.yandex.ru/docs/ru/ai-studio/operations/mcp-servers/connect-external и …/operations/generation/mcp-server-access; GigaChain — developers.sber.ru/docs/ru/gigachain/tutorials/agent-gigachat-mcp, docs.langchain.com/oss/python/langchain/mcp, github.com/ai-forever/langchain-gigachat.</sub>
